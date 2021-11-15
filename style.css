@@ -1,0 +1,91 @@
+body {
+  background-image: url(./abstract-orange-background-layout-designstudioroom-web-template-business-report-with-smooth-circle-g.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.choice {
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  margin: auto;
+}
+#scissors {
+  margin-top: 20px;
+}
+.rp {
+  /* position: relative; */
+  margin-top: 30vh;
+}
+table {
+  margin-top: 33px;
+}
+.h2 {
+  padding-top: 23px;
+}
+
+.emoji {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.result{
+    display: none;
+}
+
+.formm {
+  margin-top: 0px;
+  height: 300px;
+  width: 100%;
+  box-shadow: 0 0 300px;
+  display: inline-block;
+  background: rgb(254,132,0);
+background: linear-gradient(90deg, rgba(254,132,0,1) 0%, rgba(222,75,7,1) 37%, rgba(195,27,27,1) 100%);
+}
+.opacity-toggle {
+  opacity: 0.5;
+  filter: blur(90%);
+  filter: drop-shadow(50%);
+}
+.none {
+  display: none;
+}
+.btn {
+  margin-top: 30px;
+  height: 60px;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 10px;
+}
+#winnerimg {
+  position: absolute;
+  margin-left: 25px;
+} 
+
+
+
+
+.emoji{
+    position: relative;
+    height: 75%;
+    width:75%;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+@media (min-width:992px){
+
+.formm{
+    width: 500px;
+
+}
+.result{
+    width: 500px;
+    margin: auto;
+}
+
+.rp{
+    margin-top: 80px;
+}
+}
